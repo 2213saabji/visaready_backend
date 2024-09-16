@@ -1,8 +1,8 @@
-const app=require("./app");
+const app=require("./src/app");
 const doteEnv=require("dotenv");
 doteEnv.config();
 
-require("../dbconnection/index")
+require("./dbconnection/index")
 
 const PORT=process.env.PORT;
 
